@@ -60,5 +60,6 @@ public class Zad1 {
         phoneField.sendKeys(phone);
         saveButton.click();
 
+        driver.quit();
     }
 }
